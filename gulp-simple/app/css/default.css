@@ -1,0 +1,89 @@
+/* default sass file */
+/* line 15, ../../scss/default.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 21, ../../scss/default.scss */
+body {
+  background-color: white;
+  font-size: 18px;
+}
+/* line 22, ../../scss/default.scss */
+body * {
+  box-sizing: border-box;
+}
+/* line 26, ../../scss/default.scss */
+body > *:not(:nth-child(1)) {
+  display: none;
+}
+/* line 30, ../../scss/default.scss */
+body h1, body h2, body h3, body h4, body h5 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 35, ../../scss/default.scss */
+footer {
+  background-color: #666;
+  height: 60px;
+}
+
+/* line 39, ../../scss/default.scss */
+main {
+  background-color: lightcyan;
+}
+
+/* line 42, ../../scss/default.scss */
+nav {
+  height: 40px;
+}
+
+/* line 50, ../../scss/default.scss */
+#container {
+  height: 100%;
+}
+
+/* line 53, ../../scss/default.scss */
+#footer, #main {
+  margin: auto;
+  width: 90%;
+}
+
+/* line 57, ../../scss/default.scss */
+#footer {
+  background-color: #ddd;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 61, ../../scss/default.scss */
+#main {
+  background-color: lightyellow;
+  margin-bottom: -60px;
+  min-height: 100%;
+  padding: 10px 25px;
+  padding-bottom: 60px;
+}
+
+/* line 68, ../../scss/default.scss */
+#nav {
+  background: yellow;
+}
+/* line 70, ../../scss/default.scss */
+#nav a {
+  padding: 0 10px;
+}
+/* line 72, ../../scss/default.scss */
+#nav a:not(:last-child) {
+  border-right: solid 1px #999;
+}
+
+/* line 77, ../../scss/default.scss */
+#nav, #logo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
