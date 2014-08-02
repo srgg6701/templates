@@ -15,5 +15,6 @@ gulp.task('uglify', function(){
 });
 gulp.task('watch', function(){
     gulp.watch('js-dev/*.js', ['uglify']);
+    gulp.watch('scss/**/*.scss', ['styles']);
 });
 gulp.task('default',['watch']);
